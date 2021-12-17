@@ -1,17 +1,29 @@
 #include <iostream>
-#include<string>
 
 using namespace std;
+ class vamc
+ {
+ public:
+    void cool()
+    {
+    cout<<" i am smarty vamshi"<<endl;
+    }
+ };
+ class lucky
+ {
+public:
+    void hot()
+    {
+        cout<<"i am saiteja"<<endl;
+    }
 
+ };
 
 int main()
 {
-    string test;
-    test= "i am Q the omnipot3nt";
-    char ch =test[6];
-    test[17]='e';
-    cout<<test<<endl;
-    cout<<"ch= " << ch <<endl;
-
+    vamc vamcobject;
+    vamcobject.cool();
+    lucky luckyobj;
+    luckyobj.hot();
     return 0;
 }
